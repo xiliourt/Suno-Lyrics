@@ -624,7 +624,7 @@ const App: React.FC = () => {
             </div>
           </div>
         )}
-        <Footer git="https://github.com/xiliourt/Lyrical-Sync" />
+        <Footer git="https://github.com/xiliourt/Suno-Lyrics" />
       </main>
     </div>
   );
