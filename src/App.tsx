@@ -623,6 +623,7 @@ const App: React.FC = () => {
             </div>
           </div>
         )}
+        <Footer git="https://github.com/xiliourt/Lyrical-Sync" />
       </main>
     </div>
   );
