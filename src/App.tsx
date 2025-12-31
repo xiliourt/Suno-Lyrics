@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { fetchAlignedLyrics, fetchClipMetadata, isValidUUID, APIError } from './services/api';
+import Footer from ./components/footer';
 import { alignLyrics, generateLRC, generateSRT } from './utils/alignment';
 import { GenerationResult, SunoClipMetadata, SunoWord, AlignedLine } from './types';
 import { 
